@@ -1,0 +1,43 @@
+Day 1 :
+    Js is a single threaded synchronous language.
+
+    data
+        1,2,3,4 =>number
+        "nitan","ram","a" =>string
+        true,false =>boolean
+        Note:anything that is coated in ""is string example :"1" is also string here
+
+
+        Guess the output
+        console.log("1"+"1")="1"
+console.log(1+"1")="11"//here string wins so we take string 
+console.log(1+1+"1"+1+1)="2111"
+(2+"1"+1+1)=("21"+1+1)=("211"+1)="2111"
+(2+"3"+2+1)="2321"
+
+
+
+Day 3
+    ()=>paranthesis
+    {}=>curly braces or block
+    []=>array
+
+we cannot use single quote in single quote and back tick
+
+we can call variable inside ``using ${} but it is not possible in double or single quote
+    function
+        it has two parts:
+             function definition
+            function call
+            we must call function to run code inside function
+        it is not necessary to have same number of argument and parameter
+        //func without return call normally i.e.sum()
+       //func with return call by storing it in variable  i.e. let s=sum()
+
+        js can return only one value
+        by default function will return with undefined value
+         
+         map methos
+         use map method if input is array,output is array and output length is same as input length
+         map method modify input element
+         
